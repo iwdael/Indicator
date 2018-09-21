@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.badge;
+package com.blackchopper.indicator.buildins.commonnavigator.titles.badge;
 
 /**
  * 角标的定位规则
@@ -8,16 +8,16 @@ public class BadgeRule {
     private BadgeAnchor mAnchor;
     private int mOffset;
 
-    public BadgeRule(BadgeAnchor anchor, int offset) {
+    public BadgeRule( BadgeAnchor anchor, int offset) {
         mAnchor = anchor;
         mOffset = offset;
     }
 
-    public BadgeAnchor getAnchor() {
+    public   BadgeAnchor getAnchor() {
         return mAnchor;
     }
 
-    public void setAnchor(BadgeAnchor anchor) {
+    public void setAnchor( BadgeAnchor anchor) {
         mAnchor = anchor;
     }
 

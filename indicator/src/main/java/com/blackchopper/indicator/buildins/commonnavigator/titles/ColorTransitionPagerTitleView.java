@@ -1,8 +1,9 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles;
+package com.blackchopper.indicator.buildins.commonnavigator.titles;
 
 import android.content.Context;
 
-import net.lucode.hackware.magicindicator.buildins.ArgbEvaluatorHolder;
+import com.blackchopper.indicator.buildins.ArgbEvaluatorHolder;
+import com.blackchopper.indicator.buildins.commonnavigator.titles.SimplePagerTitleView;
 
 
 /**
@@ -18,13 +19,13 @@ public class ColorTransitionPagerTitleView extends SimplePagerTitleView {
 
     @Override
     public void onLeave(int index, int totalCount, float leavePercent, boolean leftToRight) {
-        int color = ArgbEvaluatorHolder.eval(leavePercent, mSelectedColor, mNormalColor);
+        int color =  ArgbEvaluatorHolder.eval(leavePercent, mSelectedColor, mNormalColor);
         setTextColor(color);
     }
 
     @Override
     public void onEnter(int index, int totalCount, float enterPercent, boolean leftToRight) {
-        int color = ArgbEvaluatorHolder.eval(enterPercent, mNormalColor, mSelectedColor);
+        int color =  ArgbEvaluatorHolder.eval(enterPercent, mNormalColor, mSelectedColor);
         setTextColor(color);
     }
 

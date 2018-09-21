@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.abs;
+package com.blackchopper.indicator.buildins.commonnavigator.abs;
 
 /**
  * 抽象的指示器标题，适用于CommonNavigator

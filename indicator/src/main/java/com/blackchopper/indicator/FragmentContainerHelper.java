@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator;
+package com.blackchopper.indicator;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -8,7 +8,9 @@ import android.os.Build;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.blackchopper.indicator.MagicIndicator;
+import com.blackchopper.indicator.ScrollState;
+import com.blackchopper.indicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.ArrayList;
 import java.util.List;

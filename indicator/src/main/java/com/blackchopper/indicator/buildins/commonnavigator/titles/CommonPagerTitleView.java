@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles;
+package com.blackchopper.indicator.buildins.commonnavigator.titles;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 
 /**
  * 通用的指示器标题，子元素内容由外部提供，事件回传给外部

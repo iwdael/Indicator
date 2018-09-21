@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import net.lucode.hackware.magicindicatordemo.R;
+import com.blackchopper. demo.R;
 
 /**
  * Created by hackware on 2016/9/13.

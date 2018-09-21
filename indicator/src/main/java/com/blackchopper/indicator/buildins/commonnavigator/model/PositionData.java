@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.model;
+package com.blackchopper.indicator.buildins.commonnavigator.model;
 
 /**
  * 保存指示器标题的坐标

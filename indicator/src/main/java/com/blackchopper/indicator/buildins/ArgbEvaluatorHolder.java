@@ -1,5 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins;
-
+package com.blackchopper.indicator.buildins;
 
 /**
  * 实现颜色渐变，考虑到兼容性，不使用内置的ArgbEvaluator

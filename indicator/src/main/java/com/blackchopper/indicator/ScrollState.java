@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator;
+package com.blackchopper.indicator;
 
 /**
  * 自定义滚动状态，消除对ViewPager的依赖

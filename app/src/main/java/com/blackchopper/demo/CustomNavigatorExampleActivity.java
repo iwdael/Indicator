@@ -4,12 +4,10 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-
-import net.lucode.hackware.magicindicator.MagicIndicator;
-import net.lucode.hackware.magicindicator.ViewPagerHelper;
-import net.lucode.hackware.magicindicator.buildins.circlenavigator.CircleNavigator;
-import net.lucode.hackware.magicindicatordemo.R;
 import com.blackchopper.demo.ext.navigator.ScaleCircleNavigator;
+import com.blackchopper.indicator.MagicIndicator;
+import com.blackchopper.indicator.ViewPagerHelper;
+import com.blackchopper.indicator.buildins.circlenavigator.CircleNavigator;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,9 +1,10 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles;
+package com.blackchopper.indicator.buildins.commonnavigator.titles;
 
 import android.content.Context;
 import android.view.View;
 
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerTitleView;
+
 
 /**
  * 空指示器标题，用于只需要指示器而不需要title的需求

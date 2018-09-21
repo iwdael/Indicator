@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.badge;
+package com.blackchopper.indicator.buildins.commonnavigator.titles.badge;
 
 /**
  * 角标的锚点

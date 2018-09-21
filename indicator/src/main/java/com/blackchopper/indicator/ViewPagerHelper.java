@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator;
+package com.blackchopper.indicator;
 
 import android.support.v4.view.ViewPager;
 

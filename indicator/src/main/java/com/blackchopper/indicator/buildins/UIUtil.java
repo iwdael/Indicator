@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins;
+package com.blackchopper.indicator.buildins;
 
 import android.content.Context;
 

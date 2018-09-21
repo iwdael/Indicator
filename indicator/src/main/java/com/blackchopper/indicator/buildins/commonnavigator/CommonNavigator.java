@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator;
+package com.blackchopper.indicator.buildins.commonnavigator;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -9,15 +9,15 @@ import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
-import net.lucode.hackware.magicindicator.NavigatorHelper;
-import net.lucode.hackware.magicindicator.R;
-import net.lucode.hackware.magicindicator.ScrollState;
-import net.lucode.hackware.magicindicator.abs.IPagerNavigator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.blackchopper.indicator.NavigatorHelper;
+import com.blackchopper.indicator.R;
+import com.blackchopper.indicator.ScrollState;
+import com.blackchopper.indicator.abs.IPagerNavigator;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.ArrayList;
 import java.util.List;

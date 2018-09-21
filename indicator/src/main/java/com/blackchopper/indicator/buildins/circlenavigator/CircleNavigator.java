@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.circlenavigator;
+package com.blackchopper.indicator.buildins.circlenavigator;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,9 +9,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
-
-import net.lucode.hackware.magicindicator.abs.IPagerNavigator;
-import net.lucode.hackware.magicindicator.buildins.UIUtil;
+import com.blackchopper.indicator.abs.IPagerNavigator;
+import com.blackchopper.indicator.buildins.UIUtil;
 
 import java.util.ArrayList;
 import java.util.List;

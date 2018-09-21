@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator;
+package com.blackchopper.indicator;
 
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;

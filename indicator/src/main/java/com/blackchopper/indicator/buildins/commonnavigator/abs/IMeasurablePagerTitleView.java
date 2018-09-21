@@ -1,4 +1,6 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.abs;
+package com.blackchopper.indicator.buildins.commonnavigator.abs;
+
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerTitleView;
 
 /**
  * 可测量内容区域的指示器标题

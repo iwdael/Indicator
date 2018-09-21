@@ -1,13 +1,14 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles;
+package com.blackchopper.indicator.buildins.commonnavigator.titles;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.view.View;
 
-import net.lucode.hackware.magicindicator.buildins.UIUtil;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
+import com.blackchopper.indicator.buildins.UIUtil;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 
 /**
  * 类似今日头条切换效果的指示器标题
@@ -79,6 +80,7 @@ public class ClipPagerTitleView extends View implements IMeasurablePagerTitleVie
         return result;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     protected void onDraw(Canvas canvas) {
         int x = (getWidth() - mTextBounds.width()) / 2;

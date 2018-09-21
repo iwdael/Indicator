@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.abs;
+package com.blackchopper.indicator.buildins.commonnavigator.abs;
 
 import android.content.Context;
 import android.database.DataSetObservable;

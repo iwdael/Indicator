@@ -1,11 +1,12 @@
-package net.lucode.hackware.magicindicator;
+package com.blackchopper.indicator;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import net.lucode.hackware.magicindicator.abs.IPagerNavigator;
+import com.blackchopper.indicator.abs.IPagerNavigator;
+
 
 /**
  * 整个框架的入口，核心

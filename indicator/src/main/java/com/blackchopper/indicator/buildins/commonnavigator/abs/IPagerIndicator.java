@@ -1,7 +1,7 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.abs;
+package com.blackchopper.indicator.buildins.commonnavigator.abs;
 
 
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.blackchopper.indicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.List;
 

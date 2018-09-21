@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators;
+package com.blackchopper.indicator.buildins.commonnavigator.indicators;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,11 +8,11 @@ import android.view.View;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import net.lucode.hackware.magicindicator.FragmentContainerHelper;
-import net.lucode.hackware.magicindicator.buildins.ArgbEvaluatorHolder;
-import net.lucode.hackware.magicindicator.buildins.UIUtil;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.model.PositionData;
+import com.blackchopper.indicator.FragmentContainerHelper;
+import com.blackchopper.indicator.buildins.ArgbEvaluatorHolder;
+import com.blackchopper.indicator.buildins.UIUtil;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.blackchopper.indicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.Arrays;
 import java.util.List;

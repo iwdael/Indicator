@@ -2,7 +2,7 @@ package com.blackchopper.demo.ext.titles;
 
 import android.content.Context;
 
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.SimplePagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.titles.SimplePagerTitleView;
 
 /**
  * Created by hackware on 2016/7/24.

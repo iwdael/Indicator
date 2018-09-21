@@ -1,4 +1,4 @@
-package net.lucode.hackware.magicindicator.abs;
+package com.blackchopper.indicator.abs;
 
 /**
  * 抽象的ViewPager导航器

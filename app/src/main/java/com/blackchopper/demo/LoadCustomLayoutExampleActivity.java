@@ -9,15 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import net.lucode.hackware.magicindicator.MagicIndicator;
-import net.lucode.hackware.magicindicator.ViewPagerHelper;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.CommonPagerTitleView;
-import net.lucode.hackware.magicindicatordemo.R;
+import com.blackchopper.indicator.MagicIndicator;
+import com.blackchopper.indicator.ViewPagerHelper;
+import com.blackchopper.indicator.buildins.commonnavigator.CommonNavigator;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.titles.CommonPagerTitleView;
+import com.blackchopper. demo.R;
 
 import java.util.Arrays;
 import java.util.List;

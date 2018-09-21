@@ -1,5 +1,6 @@
-package net.lucode.hackware.magicindicator.buildins.commonnavigator.titles;
+package com.blackchopper.indicator.buildins.commonnavigator.titles;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Paint;
 import android.graphics.Rect;
@@ -7,15 +8,15 @@ import android.text.TextUtils;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import net.lucode.hackware.magicindicator.buildins.UIUtil;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
-
+import com.blackchopper.indicator.buildins.UIUtil;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 
 /**
  * 带文本的指示器标题
  * 博客: http://hackware.lucode.net
  * Created by hackware on 2016/6/26.
  */
+@SuppressLint("AppCompatCustomView")
 public class SimplePagerTitleView extends TextView implements IMeasurablePagerTitleView {
     protected int mSelectedColor;
     protected int mNormalColor;

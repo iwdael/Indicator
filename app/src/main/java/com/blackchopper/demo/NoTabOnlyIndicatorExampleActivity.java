@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import net.lucode.hackware.magicindicator.MagicIndicator;
-import net.lucode.hackware.magicindicator.ViewPagerHelper;
-import net.lucode.hackware.magicindicator.buildins.UIUtil;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.LinePagerIndicator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.TriangularPagerIndicator;
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.DummyPagerTitleView;
-import net.lucode.hackware.magicindicatordemo.R;
+import com.blackchopper.indicator.MagicIndicator;
+import com.blackchopper.indicator.ViewPagerHelper;
+import com.blackchopper.indicator.buildins.UIUtil;
+import com.blackchopper.indicator.buildins.commonnavigator.CommonNavigator;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerIndicator;
+import com.blackchopper.indicator.buildins.commonnavigator.abs.IPagerTitleView;
+import com.blackchopper.indicator.buildins.commonnavigator.indicators.LinePagerIndicator;
+import com.blackchopper.indicator.buildins.commonnavigator.indicators.TriangularPagerIndicator;
+import com.blackchopper.indicator.buildins.commonnavigator.titles.DummyPagerTitleView;
+import com.blackchopper. demo.R;
 
 import java.util.Arrays;
 import java.util.List;
