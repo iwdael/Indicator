@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Indicator.iml" filepath="$PROJECT_DIR$/Indicator.iml" />
+      <module fileurl="file://C:\Users\Black Chopper\Desktop\Indicator\Indicator.iml" filepath="C:\Users\Black Chopper\Desktop\Indicator\Indicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/indicator/indicator.iml" filepath="$PROJECT_DIR$/indicator/indicator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/indicator/magicindicator.iml" filepath="$PROJECT_DIR$/indicator/magicindicator.iml" />
+      <module fileurl="file://C:\Users\Black Chopper\Desktop\Indicator\indicator\magicindicator.iml" filepath="C:\Users\Black Chopper\Desktop\Indicator\indicator\magicindicator.iml" />
     </modules>
   </component>
 </project>
