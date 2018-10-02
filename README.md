@@ -1,5 +1,6 @@
 # Indicator
 A powerful, customizable and extensible ViewPager indicator framework. As the best alternative of ViewPagerIndicator, TabLayout and PagerSlidingTabStrip.
+</br>
 ![magicindicaotor.gif](https://github.com/hacknife/Indicator/blob/master/magicindicator.gif)
 
 # Usage
