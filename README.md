@@ -17,16 +17,10 @@ Simple steps, you can integrate **MagicIndicator**:
   **or**
   
   ```groovy
-  repositories {
-      ...
-      maven {
-          url "https://jitpack.io"
-      }
-  }
-  
+
   dependencies {
       ...
-      compile 'com.github.hackware1993:MagicIndicator:1.5.0'
+      compile 'com.hacknife:indicator:1.0.3'
   }
   ```
   
