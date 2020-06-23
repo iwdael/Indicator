@@ -213,6 +213,11 @@ public class CircleNavigator extends View implements IPagerNavigator {
     }
 
     @Override
+    public int getPageSelected() {
+        return mCurrentIndex;
+    }
+
+    @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         prepareCirclePoints();
     }

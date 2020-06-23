@@ -74,8 +74,13 @@ public class Indicator extends FrameLayout {
         }
         if (mNavigator != null) {
             mNavigator.onDetachFromMagicIndicator();
+            navigator.setNavigatorCount(mNavigator.getNavigatorCount());
+            navigator.onPageSelected(mNavigator.getPageSelected());
+
         }
+
         mNavigator = navigator;
+
         removeAllViews();
         if (mNavigator instanceof View) {
             LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);

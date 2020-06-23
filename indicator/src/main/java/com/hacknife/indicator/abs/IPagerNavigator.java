@@ -20,6 +20,7 @@ public interface IPagerNavigator {
 
     int getNavigatorCount();
 
+    int getPageSelected();
     /**
      * 当IPagerNavigator被添加到MagicIndicator时调用
      */

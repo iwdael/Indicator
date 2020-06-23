@@ -69,6 +69,7 @@ public class CommonNavigator extends FrameLayout implements IPagerNavigator, Nav
             // 没什么用，暂不做处理
         }
     };
+    private int currentIndex;
 
     public CommonNavigator(Context context) {
         super(context);
@@ -275,6 +276,11 @@ public class CommonNavigator extends FrameLayout implements IPagerNavigator, Nav
     }
 
     @Override
+    public int getPageSelected() {
+        return mNavigatorHelper.getCurrentIndex();
+    }
+
+    @Override
     public void onAttachToMagicIndicator() {
         init(); // 将初始化延迟到这里
     }
@@ -344,6 +350,7 @@ public class CommonNavigator extends FrameLayout implements IPagerNavigator, Nav
 
     @Override
     public void onSelected(int index, int totalCount) {
+        currentIndex = index;
         if (mTitleContainer == null) {
             return;
         }

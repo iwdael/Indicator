@@ -69,6 +69,7 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
 
     private void initMagicIndicator3() {
         Indicator magicIndicator = (Indicator) findViewById(R.id.magic_indicator3);
+        ViewPagerHelper.bind(magicIndicator, mViewPager);
 //        ScaleCircleNavigator scaleCircleNavigator = new ScaleCircleNavigator(this);
 //        scaleCircleNavigator.setNavigatorCount(CHANNELS.length);
 //        scaleCircleNavigator.setNormalCircleColor(Color.LTGRAY);
@@ -79,7 +80,7 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
 //                mViewPager.setCurrentItem(index);
 //            }
 //        });
-//        magicIndicator.setNavigator(scaleCircleNavigator);
-        ViewPagerHelper.bind(magicIndicator, mViewPager);
+        magicIndicator.setNavigator(ScaleCircleNavigator.class);
+
     }
 }

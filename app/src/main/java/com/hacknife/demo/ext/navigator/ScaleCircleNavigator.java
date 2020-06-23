@@ -202,7 +202,6 @@ public class ScaleCircleNavigator extends View implements IPagerNavigator, Navig
     }
 
 
-
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         prepareCirclePoints();
@@ -216,6 +215,7 @@ public class ScaleCircleNavigator extends View implements IPagerNavigator, Navig
 
     @Override
     public void onAttachToMagicIndicator() {
+
     }
 
     @Override
@@ -258,7 +258,6 @@ public class ScaleCircleNavigator extends View implements IPagerNavigator, Navig
     }
 
 
-
     @Override
     public void setNavigatorCount(int count) {
         mCircleCount = count;  // 此处不调用invalidate，让外部调用notifyDataSetChanged
@@ -269,6 +268,11 @@ public class ScaleCircleNavigator extends View implements IPagerNavigator, Navig
     @Override
     public int getNavigatorCount() {
         return mCircleCount;
+    }
+
+    @Override
+    public int getPageSelected() {
+        return mNavigatorHelper.getCurrentIndex();
     }
 
     public void setTouchable(boolean touchable) {
