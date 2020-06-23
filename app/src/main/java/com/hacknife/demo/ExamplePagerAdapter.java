@@ -1,11 +1,13 @@
 package com.hacknife.demo;
 
 import android.graphics.Color;
-import android.support.v4.view.PagerAdapter;
+
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.viewpager.widget.PagerAdapter;
 
 import java.util.List;
 

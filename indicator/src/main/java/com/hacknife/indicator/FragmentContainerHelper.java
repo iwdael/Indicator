@@ -15,10 +15,11 @@ import java.util.List;
 
 
 /**
- * 使得MagicIndicator在FragmentContainer中使用
- * Created by hackware on 2016/9/4.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
-
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class FragmentContainerHelper {
     private List<Indicator> mMagicIndicators = new ArrayList<Indicator>();

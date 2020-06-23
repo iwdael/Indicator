@@ -11,9 +11,10 @@ import com.hacknife.indicator.buildins.UIUtil;
 import com.hacknife.indicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 
 /**
- * 类似今日头条切换效果的指示器标题
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class ClipPagerTitleView extends View implements IMeasurablePagerTitleView {
     private String mText;
@@ -92,7 +93,7 @@ public class ClipPagerTitleView extends View implements IMeasurablePagerTitleVie
         canvas.drawText(mText, x, y, mPaint);
 
         // 画clip层
-        canvas.save(Canvas.CLIP_SAVE_FLAG);
+        canvas.save();
         if (mLeftToRight) {
             canvas.clipRect(0, 0, getWidth() * mClipPercent, getHeight());
         } else {

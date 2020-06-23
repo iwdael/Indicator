@@ -1,9 +1,10 @@
 package com.hacknife.indicator.buildins.commonnavigator.abs;
 
 /**
- * 可测量内容区域的指示器标题
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public interface IMeasurablePagerTitleView extends IPagerTitleView {
     int getContentLeft();

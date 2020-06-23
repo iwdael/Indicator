@@ -2,8 +2,11 @@ package com.hacknife.demo;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+
 import com.hacknife.demo.ext.navigator.ScaleCircleNavigator;
 import com.hacknife.indicator.Indicator;
 import com.hacknife.indicator.ViewPagerHelper;
@@ -26,7 +29,7 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mViewPager.setAdapter(mExamplePagerAdapter);
-
+        mViewPager.setCurrentItem(3);
         initMagicIndicator1();
         initMagicIndicator2();
         initMagicIndicator3();
@@ -35,7 +38,7 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
     private void initMagicIndicator1() {
         Indicator magicIndicator = (Indicator) findViewById(R.id.magic_indicator1);
         CircleNavigator circleNavigator = new CircleNavigator(this);
-        circleNavigator.setCircleCount(CHANNELS.length);
+//        circleNavigator.setNavigatorCount(CHANNELS.length);
         circleNavigator.setCircleColor(Color.RED);
         circleNavigator.setCircleClickListener(new CircleNavigator.OnCircleClickListener() {
             @Override
@@ -43,6 +46,7 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
                 mViewPager.setCurrentItem(index);
             }
         });
+
         magicIndicator.setNavigator(circleNavigator);
         ViewPagerHelper.bind(magicIndicator, mViewPager);
     }
@@ -51,7 +55,7 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
         Indicator magicIndicator = (Indicator) findViewById(R.id.magic_indicator2);
         CircleNavigator circleNavigator = new CircleNavigator(this);
         circleNavigator.setFollowTouch(false);
-        circleNavigator.setCircleCount(CHANNELS.length);
+        circleNavigator.setNavigatorCount(CHANNELS.length);
         circleNavigator.setCircleColor(Color.RED);
         circleNavigator.setCircleClickListener(new CircleNavigator.OnCircleClickListener() {
             @Override
@@ -65,17 +69,17 @@ public class CustomNavigatorExampleActivity extends AppCompatActivity {
 
     private void initMagicIndicator3() {
         Indicator magicIndicator = (Indicator) findViewById(R.id.magic_indicator3);
-        ScaleCircleNavigator scaleCircleNavigator = new ScaleCircleNavigator(this);
-        scaleCircleNavigator.setCircleCount(CHANNELS.length);
-        scaleCircleNavigator.setNormalCircleColor(Color.LTGRAY);
-        scaleCircleNavigator.setSelectedCircleColor(Color.DKGRAY);
-        scaleCircleNavigator.setCircleClickListener(new ScaleCircleNavigator.OnCircleClickListener() {
-            @Override
-            public void onClick(int index) {
-                mViewPager.setCurrentItem(index);
-            }
-        });
-        magicIndicator.setNavigator(scaleCircleNavigator);
+//        ScaleCircleNavigator scaleCircleNavigator = new ScaleCircleNavigator(this);
+//        scaleCircleNavigator.setNavigatorCount(CHANNELS.length);
+//        scaleCircleNavigator.setNormalCircleColor(Color.LTGRAY);
+//        scaleCircleNavigator.setSelectedCircleColor(Color.DKGRAY);
+//        scaleCircleNavigator.setCircleClickListener(new ScaleCircleNavigator.OnCircleClickListener() {
+//            @Override
+//            public void onClick(int index) {
+//                mViewPager.setCurrentItem(index);
+//            }
+//        });
+//        magicIndicator.setNavigator(scaleCircleNavigator);
         ViewPagerHelper.bind(magicIndicator, mViewPager);
     }
 }

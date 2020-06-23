@@ -1,9 +1,10 @@
 package com.hacknife.indicator.buildins.commonnavigator.model;
 
 /**
- * 保存指示器标题的坐标
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class PositionData {
     public int mLeft;

@@ -23,9 +23,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 通用的ViewPager指示器，包含PagerTitle和PagerIndicator
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class CommonNavigator extends FrameLayout implements IPagerNavigator, NavigatorHelper.OnNavigatorScrollListener {
     private HorizontalScrollView mScrollView;
@@ -261,6 +262,16 @@ public class CommonNavigator extends FrameLayout implements IPagerNavigator, Nav
                 mIndicator.onPageScrollStateChanged(state);
             }
         }
+    }
+
+    @Override
+    public void setNavigatorCount(int count) {
+
+    }
+
+    @Override
+    public int getNavigatorCount() {
+        return mAdapter == null ? 0 : mAdapter.getCount();
     }
 
     @Override

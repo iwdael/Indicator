@@ -3,8 +3,9 @@ package com.hacknife.demo;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.hacknife.indicator.Indicator;
 import com.hacknife.indicator.ViewPagerHelper;

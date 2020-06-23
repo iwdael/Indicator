@@ -16,9 +16,10 @@ import com.hacknife.indicator.buildins.commonnavigator.model.PositionData;
 import java.util.List;
 
 /**
- * 带有小尖角的直线指示器
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class TriangularPagerIndicator extends View implements IPagerIndicator {
     private List<PositionData> mPositionDataList;

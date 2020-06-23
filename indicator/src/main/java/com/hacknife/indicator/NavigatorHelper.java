@@ -4,10 +4,10 @@ import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 
 /**
- * 方便扩展IPagerNavigator的帮助类，将ViewPager的3个回调方法转换成
- * onSelected、onDeselected、onEnter等回调，方便扩展
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class NavigatorHelper {
     private SparseBooleanArray mDeselectedItems = new SparseBooleanArray();

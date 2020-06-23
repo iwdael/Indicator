@@ -1,30 +1,37 @@
 package com.hacknife.indicator;
 
-import android.support.v4.view.ViewPager;
+
+import android.util.Log;
+
+import androidx.viewpager.widget.ViewPager;
 
 /**
- * 简化和ViewPager绑定
- * Created by hackware on 2016/8/17.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
-
 public class ViewPagerHelper {
-    public static void bind(final Indicator magicIndicator, ViewPager viewPager) {
+    public static void bind(final Indicator indicator, ViewPager viewPager) {
+        indicator.getNavigator().setNavigatorCount(viewPager.getAdapter().getCount());
+        indicator.onPageSelected(viewPager.getCurrentItem());
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                magicIndicator.onPageScrolled(position, positionOffset, positionOffsetPixels);
+                indicator.onPageScrolled(position, positionOffset, positionOffsetPixels);
             }
 
             @Override
             public void onPageSelected(int position) {
-                magicIndicator.onPageSelected(position);
+                indicator.onPageSelected(position);
             }
 
             @Override
             public void onPageScrollStateChanged(int state) {
-                magicIndicator.onPageScrollStateChanged(state);
+                indicator.onPageScrollStateChanged(state);
             }
         });
+
     }
 }

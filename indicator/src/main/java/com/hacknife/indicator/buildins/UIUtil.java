@@ -3,8 +3,10 @@ package com.hacknife.indicator.buildins;
 import android.content.Context;
 
 /**
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public final class UIUtil {
 

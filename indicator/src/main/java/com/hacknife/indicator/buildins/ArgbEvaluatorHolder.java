@@ -1,9 +1,10 @@
 package com.hacknife.indicator.buildins;
 
 /**
- * 实现颜色渐变，考虑到兼容性，不使用内置的ArgbEvaluator
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class ArgbEvaluatorHolder {
     public static int eval(float fraction, int startValue, int endValue) {

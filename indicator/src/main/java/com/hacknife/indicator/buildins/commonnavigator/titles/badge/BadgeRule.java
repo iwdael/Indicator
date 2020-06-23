@@ -1,8 +1,10 @@
 package com.hacknife.indicator.buildins.commonnavigator.titles.badge;
 
 /**
- * 角标的定位规则
- * Created by hackware on 2016/7/19.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class BadgeRule {
     private BadgeAnchor mAnchor;

@@ -1,8 +1,10 @@
 package com.hacknife.indicator;
 
 /**
- * 自定义滚动状态，消除对ViewPager的依赖
- * Created by hackware on 2016/8/27.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 
 public interface ScrollState {

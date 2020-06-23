@@ -44,6 +44,17 @@ public class DummyCircleNavigator extends View implements IPagerNavigator {
     }
 
     @Override
+    public void setNavigatorCount(int count) {
+        mCircleCount = count;
+        prepareCirclePoints();
+    }
+
+    @Override
+    public int getNavigatorCount() {
+        return mCircleCount;
+    }
+
+    @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         prepareCirclePoints();
     }
@@ -152,16 +163,4 @@ public class DummyCircleNavigator extends View implements IPagerNavigator {
         return mCurrentIndex;
     }
 
-    public int getCircleCount() {
-        return mCircleCount;
-    }
-
-    /**
-     * notifyDataSetChanged应该紧随其后调用
-     *
-     * @param circleCount
-     */
-    public void setCircleCount(int circleCount) {
-        mCircleCount = circleCount;
-    }
 }

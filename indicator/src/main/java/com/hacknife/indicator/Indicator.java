@@ -1,27 +1,49 @@
 package com.hacknife.indicator;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 import com.hacknife.indicator.abs.IPagerNavigator;
+
+import java.lang.reflect.InvocationTargetException;
 
 
 /**
- * 整个框架的入口，核心
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class Indicator extends FrameLayout {
     private IPagerNavigator mNavigator;
 
     public Indicator(Context context) {
-        super(context);
+        this(context, null);
     }
 
     public Indicator(Context context, AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, 0);
+    }
+
+    public Indicator(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.Indicator);
+        String className = typedArray.getString(R.styleable.Indicator_indicator);
+        if (className != null) {
+            try {
+                Class<? extends View> v = (Class<? extends View>) Class.forName(className);
+                setNavigator((IPagerNavigator) v.getConstructor(Context.class).newInstance(context));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        typedArray.recycle();
     }
 
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -59,6 +81,22 @@ public class Indicator extends FrameLayout {
             LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
             addView((View) mNavigator, lp);
             mNavigator.onAttachToMagicIndicator();
+        }
+    }
+
+    public void setNavigator(Class<? extends View> clazz) {
+        try {
+            setNavigator((IPagerNavigator) clazz.getConstructor(Context.class).newInstance(getContext()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void setNavigator(String className) {
+        try {
+            setNavigator((Class<? extends View>) Class.forName(className));
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

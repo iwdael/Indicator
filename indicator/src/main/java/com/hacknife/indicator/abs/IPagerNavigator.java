@@ -1,9 +1,10 @@
 package com.hacknife.indicator.abs;
 
 /**
- * 抽象的ViewPager导航器
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public interface IPagerNavigator {
 
@@ -14,6 +15,10 @@ public interface IPagerNavigator {
 
     void onPageScrollStateChanged(int state);
     /////////////////////////
+
+    void setNavigatorCount(int count);
+
+    int getNavigatorCount();
 
     /**
      * 当IPagerNavigator被添加到MagicIndicator时调用

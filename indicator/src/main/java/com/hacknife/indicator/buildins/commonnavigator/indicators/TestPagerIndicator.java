@@ -15,9 +15,10 @@ import java.util.List;
 
 
 /**
- * 用于测试的指示器，可用来检测自定义的IMeasurablePagerTitleView是否正确测量内容区域
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class TestPagerIndicator extends View implements IPagerIndicator {
     private Paint mPaint;

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
+
 import com.hacknife.indicator.abs.IPagerNavigator;
 import com.hacknife.indicator.buildins.UIUtil;
 
@@ -16,9 +17,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 圆圈式的指示器
- * 博客: http://hackware.lucode.net
- * Created by hackware on 2016/6/26.
+ * author  : Hacknife
+ * e-mail  : hacknife@outlook.com
+ * github  : http://github.com/hacknife
+ * project : Indicator
  */
 public class CircleNavigator extends View implements IPagerNavigator {
     private int mRadius;
@@ -200,6 +202,17 @@ public class CircleNavigator extends View implements IPagerNavigator {
     }
 
     @Override
+    public void setNavigatorCount(int count) {
+        mTotalCount = count;
+        prepareCirclePoints();
+    }
+
+    @Override
+    public int getNavigatorCount() {
+        return mTotalCount;
+    }
+
+    @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         prepareCirclePoints();
     }
@@ -267,13 +280,6 @@ public class CircleNavigator extends View implements IPagerNavigator {
         }
     }
 
-    public int getCircleCount() {
-        return mTotalCount;
-    }
-
-    public void setCircleCount(int count) {
-        mTotalCount = count;  // 此处不调用invalidate，让外部调用notifyDataSetChanged
-    }
 
     public boolean isTouchable() {
         return mTouchable;
