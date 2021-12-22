@@ -12,7 +12,7 @@
         android:background="#455a64"
         android:orientation="vertical">
 
-        <com.hacknife.indicator.Indicator
+        <com.iwdael.indicator.Indicator
             android:id="@+id/magic_indicator1"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/common_navigator_height"
@@ -20,7 +20,7 @@
 
     </LinearLayout>
 
-    <com.hacknife.indicator.Indicator
+    <com.iwdael.indicator.Indicator
         android:id="@+id/magic_indicator2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/common_navigator_height"
@@ -32,7 +32,7 @@
         android:layout_marginTop="@dimen/navigator_margin_top"
         android:orientation="vertical">
 
-        <com.hacknife.indicator.Indicator
+        <com.iwdael.indicator.Indicator
             android:id="@+id/magic_indicator3"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/common_navigator_height"
@@ -47,7 +47,7 @@
         android:background="@android:color/black"
         android:orientation="vertical">
 
-        <com.hacknife.indicator.Indicator
+        <com.iwdael.indicator.Indicator
             android:id="@+id/magic_indicator4"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/common_navigator_height"

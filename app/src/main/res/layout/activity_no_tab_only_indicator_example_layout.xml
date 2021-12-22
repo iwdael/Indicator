@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.hacknife.indicator.Indicator
+    <com.iwdael.indicator.Indicator
         android:id="@+id/magic_indicator1"
         android:layout_width="match_parent"
         android:layout_height="@dimen/small_navigator_height"
         android:layout_marginTop="@dimen/navigator_margin_top" />
 
-    <com.hacknife.indicator.Indicator
+    <com.iwdael.indicator.Indicator
         android:id="@+id/magic_indicator2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/small_navigator_height"

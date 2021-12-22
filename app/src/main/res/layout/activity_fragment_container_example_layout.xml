@@ -11,7 +11,7 @@
         android:layout_marginTop="@dimen/navigator_margin_top"
         android:orientation="vertical">
 
-        <com.hacknife.indicator.Indicator
+        <com.iwdael.indicator.Indicator
             android:id="@+id/magic_indicator1"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/common_navigator_height"

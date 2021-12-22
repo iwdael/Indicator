@@ -11,26 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.hacknife.indicator.Indicator
+    <com.iwdael.indicator.Indicator
         android:id="@+id/magic_indicator1"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/common_navigator_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <com.hacknife.indicator.Indicator
+    <com.iwdael.indicator.Indicator
         android:id="@+id/magic_indicator2"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/common_navigator_height"
         android:layout_above="@+id/magic_indicator1"
         android:layout_centerHorizontal="true" />
 
-    <com.hacknife.indicator.Indicator
+    <com.iwdael.indicator.Indicator
         android:id="@+id/magic_indicator3"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/common_navigator_height"
         android:layout_above="@id/magic_indicator2"
         android:layout_centerHorizontal="true"
-        app:indicator="com.hacknife.demo.ext.navigator.ScaleCircleNavigator" />
+        app:indicator="com.iwdael.demo.ext.navigator.ScaleCircleNavigator" />
 
 </RelativeLayout>
