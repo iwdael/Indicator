@@ -1,5 +1,10 @@
 # Indicator
-[![](https://img.shields.io/badge/platform-android-orange.svg)](https://github.com/iwdael) [![](https://img.shields.io/badge/language-java-yellow.svg)](https://github.com/iwdael) [![](https://img.shields.io/badge/JCenter-1.0.3-brightgreen.svg)](http://jcenter.bintray.com/com/iwdael/indicator/) [![](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/iwdael) [![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/iwdael) [![](https://img.shields.io/badge/api-19+-green.svg)](https://github.com/iwdael)<br/><br/>
+![](https://img.shields.io/badge/platform-android-orange.svg)
+![](https://img.shields.io/badge/language-java-yellow.svg)
+![](https://jitpack.io/v/com.iwdael/indicator.svg)
+![](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![](https://img.shields.io/badge/license-apache--2.0-green.svg)
+![](https://img.shields.io/badge/api-19+-green.svg)
 
 ![magicindicaotor.gif](https://github.com/iwdael/Indicator/blob/master/magicindicator.gif)
 
